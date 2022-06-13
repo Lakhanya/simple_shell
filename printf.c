@@ -77,7 +77,7 @@ void print_int(int *tally)
 	max = n;
 	d = max;
 
-	do{
+	do {
 		d /= 10;
 		++length;
 	} while (d != 0);
