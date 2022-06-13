@@ -29,7 +29,7 @@ void no_nl(char *l)
 
 	int i = 0;
 
-	while(l[i])
+	while (l[i])
 	{
 		if (l[i] == '\n')
 		{
